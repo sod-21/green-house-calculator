@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Test</title>
+    </head>
+    <body>
+        <div id="root-acr-calendar"></div>
+        <script type="text/javascript">
+            window.acr_options = [[["Yes",""],["No",""]],[["Dry: <20 inches of precipitation\/year","Dry"],["Moderate: 20-40 inches of precipitation\/year","Moderate"],["Wet: >40 inches of precipitation\/year","Wet"],["Bioreactor: Water is added until the moisture content reaches 40 percent moisture on a wet weight basis","Bioreactor"]],[["Worst-case gas collection: Years 0-4: 0%; Years 5-9: 50%; Years 10-14: 75%; Years 15 to 1 year before final cover: 82.5%; Final Cover: 90%","Worst-case"],["Typical operation: Years 0-1: 0%; Years 2-4: 50%; Years 5-14: 75%; Years 15 to 1 year before final cover: 82.5%; Final Cover: 90%","Typical"],["Aggressive gas collection: Years 0: 0%; Years 0.5-2: 50%; Years 3-14: 75%; Years 15 to 1 year before final cover: 82.5%; Final Cover: 90%","Aggressive"],["California regulatory collection: Years 0: 0%; Year 1: 50%; Years 2-7: 80%; Years 8 to 1 year before final cover: 85%; Final Cover: 90%","California"]],[["Gas is recovered for energy","Energy"],["Gas is flared","Flare"]],[["Alabama","East South Central"],["Alaska","Pacific"],["Arizona","Mountain"],["Arkansas","West South Central"],["California","Pacific"],["Colorado","Mountain"],["Connecticut","New England"],["Delaware","South Atlantic"],["District of Columbia","South Atlantic"],["Florida","South Atlantic"],["Georgia","South Atlantic"],["Hawaii","Pacific"],["Idaho","Mountain"],["Illinois","East North Central"],["Indiana","East North Central"],["Iowa","West North Central"],["Kansas","West North Central"],["Kentucky","East South Central"],["Louisiana","West South Central"],["Maine","New England"],["Maryland","South Atlantic"],["Massachusetts","New England"],["Michigan","East North Central"],["Minnesota","West North Central"],["Mississippi","East South Central"],["Missouri","West North Central"],["Montana","Mountain"],["Nebraska","West North Central"],["Nevada","Mountain"],["New Hampshire","New England"],["New Jersey","Mid Atlantic"],["New Mexico","Mountain"],["New York","Mid Atlantic"],["North Carolina","South Atlantic"],["North Dakota","West North Central"],["Ohio","East North Central"],["Oklahoma","West South Central"],["Oregon","Pacific"],["Pennsylvania","Mid Atlantic"],["Rhode Island","New England"],["South Carolina","South Atlantic"],["South Dakota","West North Central"],["Tennessee","East South Central"],["Texas","West South Central"],["Utah","Mountain"],["Vermont","New England"],["Virginia","South Atlantic"],["Washington","Pacific"],["West Virginia","South Atlantic"],["Wisconsin","East North Central"],["Wyoming","Mountain"]],[["Wet mesophilic digester with curing of digestate to produce compost","Wet with Curing for Compost"],["Wet mesophilic digester without curing of digestate","Wet without Curing"],["Dry mesophilic digester with curing of digestate to produce compost","Dry with Curing for Compost"],["Dry mesophilic digester without curing of digestate","Dry without Curing"]],[["Electricity for export to grid",""],["Natural gas for pipeline injection",""],["Vehicle fuel (RNG)",""],["Vehicle fuel (hydrogen)",""],["Vehicle fuel (DME)",""]],[["<=50 miles",""],["51-100 miles",""],["101-150 miles",""],["151-200 miles",""],[">200 miles",""]]];
+                window.acr_url = "http://local.nucitrus.com/wp-admin/admin-ajax.php";
+          </script>
+        <!-- Dependencies -->
+        <% if (webpackConfig.mode == 'production') { %>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js" integrity="sha256-yUhvEmYVhZ/GGshIQKArLvySDSh6cdmdcIx0spR3UP4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js" integrity="sha256-vFt3l+illeNlwThbDUdoPTqF81M8WNSZZZt3HEjsbSU=" crossorigin="anonymous"></script>
+        <% } else { %>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.development.js" integrity="sha256-4gJGEx/zXAxofkLPGXiU2IJHqSOmYV33Ru0zw0TeJ30=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.development.min.js" integrity="sha256-9xBa2Hcuh2S3iew36CzJawq7T9iviOAcAVz3bw8h3Lo=" crossorigin="anonymous"></script>
+        <% } %>
+    </body>
+</html>
